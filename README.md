@@ -1,8 +1,10 @@
-# Flask Shop - An Amazing Project
+## PROJECT MART - College Project Service
 
+Text now to get college project installed
 
-## Introduction
-This project is a front page copy of [saleor](https://github.com/mirumee/saleor) old version, but written with flask.
+[![Whatsapp Contact](https://www.projectmart.in/_next/static/media/Logo.99b856f5.svg)](https://api.whatsapp.com/send?phone=917676409450&text=Could%20you%20help%20me%20complete%20my%20college%20project%3F)
+
+Contact us now on **Whatsapp**([Click here](https://api.whatsapp.com/send?phone=917676409450&text=Could%20you%20help%20me%20complete%20my%20college%20project%3F))
 
 ## ScreenShot
 
@@ -51,11 +53,3 @@ This project is a front page copy of [saleor](https://github.com/mirumee/saleor)
 * product ready, good performance
 
 
-## Guide
-
-Please see the [wiki](https://github.com/hjlarry/flask-shop/wiki) for more information:
-
-* [How to install?](https://github.com/hjlarry/flask-shop/wiki/How-to-install-project%3F)
-* [Project settings](https://github.com/hjlarry/flask-shop/wiki/Project-Settings)
-* [Localization support](https://github.com/hjlarry/flask-shop/wiki/Localization-support)
-* [Secondary development](https://github.com/hjlarry/flask-shop/wiki/Secondary-development)
