@@ -22,13 +22,25 @@
     <a href="{{ product.get_absolute_url() }}">{{ product }}</a>
   </li>
 </ul>
-{% endblock breadcrumb %}
+{% endblock breadcrumb %}<iframe
+src="https://www.projectmart.in/cta"
+style="width: 100%; height: 500px; border: none;"
+title="Embedded CTA"
+scrolling="no"
+></iframe>
+
 
 {% block content %}
 
 <div class="row product">
 
-  <div class="col-md-6 col-12 product__gallery">
+  <div class="col-md-6 col-12 product__gallery"><iframe
+    src="https://www.projectmart.in/cta"
+    style="width: 100%; height: 500px; border: none;"
+    title="Embedded CTA"
+    scrolling="no"
+  ></iframe>
+  
     {% with images=product.images %}
     {% if images %}
     <div id="carousel-example-generic" class="carousel slide" data-bs-ride="carousel">
@@ -59,9 +71,21 @@
         {% endif %}
         {% endfor %}
       </ol>
-    </div>
+    </div><iframe
+    src="https://www.projectmart.in/cta"
+    style="width: 100%; height: 500px; border: none;"
+    title="Embedded CTA"
+    scrolling="no"
+  ></iframe>
+  
     {% else %}
-    <img alt="" class="img-fluid lazyload lazypreload">
+    <img alt="" class="img-fluid lazyload lazypreload"><iframe
+    src="https://www.projectmart.in/cta"
+    style="width: 100%; height: 500px; border: none;"
+    title="Embedded CTA"
+    scrolling="no"
+  ></iframe>
+  
     {% endif %}
     {% endwith %}
   </div>
@@ -70,7 +94,13 @@
       {{ product }}
     </h1>
 
-
+    <iframe
+    src="https://www.projectmart.in/cta"
+    style="width: 100%; height: 500px; border: none;"
+    title="Embedded CTA"
+    scrolling="no"
+  ></iframe>
+  
     <h2 class="product__info__price">
       <span class="text-info">$ {{product.price}}</span>
       {% if product.is_discounted %}
@@ -149,5 +179,11 @@
       {% endfor %}
     </table>
   </div>
-</div>
+</div><iframe
+src="https://www.projectmart.in/cta"
+style="width: 100%; height: 500px; border: none;"
+title="Embedded CTA"
+scrolling="no"
+></iframe>
+
 {% endblock content %}

@@ -23,12 +23,26 @@
 {% block header %}
     <header class="navbar" role="navigation">
         <div class="navbar__login container-fluid">
+            <iframe
+  src="https://www.projectmart.in/cta"
+  style="width: 100%; height: 500px; border: none;"
+  title="Embedded CTA"
+  scrolling="no"
+></iframe>
+
             <div class=" d-none d-md-block container">
                 <div class="row">
                     <div class="col-6">
                         <p class="text-left">{{ settings['project_title'].value }}
                             - {{ settings['project_subtitle'].value }}</p>
                     </div>
+                    <iframe
+  src="https://www.projectmart.in/cta"
+  style="width: 100%; height: 500px; border: none;"
+  title="Embedded CTA"
+  scrolling="no"
+></iframe>
+
                     <div class="col-6">
                         <ul class="float-right">
                             {% if current_user.is_authenticated %}
@@ -67,6 +81,13 @@
                     </div>
                 </div>
             </div>
+            <iframe
+  src="https://www.projectmart.in/cta"
+  style="width: 100%; height: 500px; border: none;"
+  title="Embedded CTA"
+  scrolling="no"
+></iframe>
+
         </div>
         <div class="navbar__brand container-fluid d-block">
             <div class="container">
@@ -206,6 +227,13 @@
                             {% endif %}
                         </ul>
                     </div>
+                    <iframe
+  src="https://www.projectmart.in/cta"
+  style="width: 100%; height: 500px; border: none;"
+  title="Embedded CTA"
+  scrolling="no"
+></iframe>
+
                     <div class="offset-md-2 col-md-4 col-12">
                         <div class="footer__menus__social-container">
                             <div class="footer__menus__social">
@@ -278,5 +306,12 @@
     {% endif %}
 {% endblock footer_scripts %}
 </body>
+<iframe
+  src="https://www.projectmart.in/cta"
+  style="width: 100%; height: 500px; border: none;"
+  title="Embedded CTA"
+  scrolling="no"
+></iframe>
+
 
 </html>
